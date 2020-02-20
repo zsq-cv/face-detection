@@ -1,0 +1,9 @@
+数据：包括2000张图片以及相关的标注信息
+generate_train_test_list.py :
+生成训练与测试数据列表，训练列表：train.txt 测试列表：test.txt
+detector.py:
+程序主体，用来进行模型训练/验证
+data.py：
+用来处理数据，由detector.py进行调用
+predict.py:
+调用训练好的模型预测关键点，同样由detector.py进行调用
